@@ -36,6 +36,7 @@ h1 {
 
 h2 {
   font-size: 3.5rem;
+  letter-spacing: 2px;
 }
 
 h3 {
@@ -85,7 +86,7 @@ p.lead {
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
-  letter-spacing: 0.05rem;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 
@@ -117,8 +118,8 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 14rem;
+    max-height: 14rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
@@ -160,9 +161,35 @@ section.resume-section .resume-item .resume-date {
 }
 
 .port-container {
-  height: 650px;
-  width: 850px;
-  background-color: #7f2627;
+  padding: 5px;
+  width: 100%;
+  max-width: 800px;
+  justify-content: center;
+}
+
+.one-space {
+  letter-spacing: 1px;
+}
+
+.four-space {
+  letter-spacing: 4px;
+}
+
+.port {
+  background-color: white;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  height: 215px;
+  width: 215px;
+}
+
+.port-image {
+  width: 100%;
+  height: 100%;
+}
+
+.battle {
+  border: 5px solid #011494;
 }
 
 @media (min-width: 768px) {
