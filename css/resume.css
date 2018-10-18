@@ -17,6 +17,31 @@ body {
   }
 }
 
+.one-space {
+  letter-spacing: 1px;
+}
+
+.four-space {
+  letter-spacing: 3px;
+}
+
+.gif {
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  float: left;
+}
+
+.text {
+  background-color: blue;
+  height: 300px;
+  width: 100%;
+}
+
+.no-margin {
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -91,16 +116,49 @@ p.lead {
 }
 
 .navbar {
-  border-right: 7px solid gold;
+  border-right: 12px solid gold;
   padding-right: 12px;
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: gold;
 }
 
-#pic {
-  background-color: red;
+.port-row {
+  margin-bottom: 40px;
+}
+
+.port-i:hover {
+  outline: 5px solid gold;
+}
+
+.port-img {
+  width: 300px;
+  min-width: 300px;
+  height: 300px;
+  min-height: 300px;
+  background-color: #7f2627;
+
+}
+
+.port-text {
+  height: auto;
+  width: auto;
+  margin-left: 5px;
+}
+
+.port-text-para {
+  font-size: 0.9rem;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.port-head:hover {
+  text-decoration: underline;
+  text-decoration-color: gold;
 }
 
 @media (min-width: 992px) {
@@ -116,7 +174,7 @@ p.lead {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    width: 17rem;
+    width: 12rem;
     height: 100vh;
   }
   #sideNav .navbar-brand {
@@ -130,7 +188,7 @@ p.lead {
     max-width: 14rem;
     max-height: 14rem;
     border: 2px solid gold;
-    box-shadow: 0 0 9px gold;
+    box-shadow: 0 0 10px gold;
   }
 
   #sideNav .navbar-collapse {
@@ -159,6 +217,20 @@ p.lead {
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
   }
+  .port-row {
+    display: flex;
+  }
+  .center {
+    margin: 0;
+    display: inline-block;
+  }
+  .port-text {
+    height: auto;
+    width: 500px;
+    margin-left: 5px;
+    flex-grow: 1;
+    padding-left: 30px;
+  }
 }
 
 section.resume-section {
@@ -171,37 +243,8 @@ section.resume-section .resume-item .resume-date {
   min-width: none;
 }
 
-.port-container {
-  padding: 5px;
-  width: 100%;
-  max-width: 800px;
-  justify-content: center;
-}
 
-.one-space {
-  letter-spacing: 1px;
-}
 
-.four-space {
-  letter-spacing: 3px;
-}
-
-.port {
-  background-color: white;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  height: 215px;
-  width: 215px;
-}
-
-.port-image {
-  width: 100%;
-  height: 100%;
-}
-
-.battle {
-  border: 5px solid #011494;
-}
 
 @media (min-width: 768px) {
   section.resume-section {
@@ -216,6 +259,7 @@ section.resume-section .resume-item .resume-date {
   section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
+    padding: 2rem !important;
   }
 }
 
@@ -234,3 +278,5 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+
