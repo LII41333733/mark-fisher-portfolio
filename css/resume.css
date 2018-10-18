@@ -90,8 +90,17 @@ p.lead {
   text-transform: uppercase;
 }
 
+.navbar {
+  border-right: 7px solid gold;
+  padding-right: 12px;
+}
+
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
+}
+
+#pic {
+  background-color: red;
 }
 
 @media (min-width: 992px) {
@@ -120,8 +129,10 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 14rem;
     max-height: 14rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 2px solid gold;
+    box-shadow: 0 0 9px gold;
   }
+
   #sideNav .navbar-collapse {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -172,7 +183,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .four-space {
-  letter-spacing: 4px;
+  letter-spacing: 3px;
 }
 
 .port {
