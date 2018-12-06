@@ -116,20 +116,20 @@ p.lead {
 }
 
 .navbar {
-  border-right: 12px solid gold;
+  border-right: 12px solid #ffe34e;
   padding-right: 12px;
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: gold;
+  outline-color: #ffe34e;
 }
 
 .port-row {
   margin-bottom: 40px;
 }
 
-.port-i:hover {
-  outline: 5px solid gold;
+.port-i:hover, .folio-gif:hover {
+  outline: 5px solid #ffe34e;
 }
 
 .port-img {
@@ -141,10 +141,10 @@ p.lead {
 
 }
 
-.port-text {
+.port-text-para {
   height: auto;
-  width: auto;
-  margin-left: 5px;
+  width: 100%;
+
 }
 
 .port-text-para {
@@ -158,10 +158,37 @@ p.lead {
 
 .port-head:hover {
   text-decoration: underline;
-  text-decoration-color: gold;
+  text-decoration-color: #ffe34e;
 }
 
+.folio-row {
+  height: auto;
+  max-height: 450px;
+  width: 90%;
+  border: 3px solid #7f2627;
+}
+
+.folio-gif {
+  height: 100%;
+  width: 100%;
+}
+
+.folio-text {
+  width: 90%;
+}
+
+.port-head {
+  letter-spacing: 2px;
+}
+
+hr {
+  background: #ffe34e;
+  border-top: 1px solid #ffe34e;
+}
+
+
 @media (min-width: 992px) {
+
   #sideNav {
     text-align: center;
     position: fixed;
@@ -186,9 +213,12 @@ p.lead {
   }
   #sideNav .navbar-brand .img-profile {
     max-width: 14rem;
-    max-height: 14rem;
-    border: 2px solid gold;
-    box-shadow: 0 0 10px gold;
+    max-height: 25rem;
+    border: 2px solid #ffe34e;
+    box-shadow: 0 0 10px #ffe34e;
+    border-radius: 2%!important;
+    height: 350px;
+    width: 200px;
   }
 
   #sideNav .navbar-collapse {
