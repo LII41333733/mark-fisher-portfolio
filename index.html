@@ -28,8 +28,8 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Mark Fisher</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/mark.jpg" alt="">
+      <span class="d-none d-lg-block img-pic">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/mark.jpg" alt="mark-profile-pic">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -42,10 +42,10 @@
           <a class="nav-link js-scroll-trigger" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
@@ -64,9 +64,7 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
       <div class="my-auto">
-        <h1 class="mb-0 four-space">Mark
-          <span class="text-primary">Fisher</span>
-        </h1>
+        <h1 class="mb-0 four-space">Mark<span class="bar"> </span><span class="text-primary">Fisher</span></h1>
         <div class="subheading mb-5 one-space">467 Rose Court · Lakewood, NJ 08701 · (732) 534-1583 ·
           <a href="mailto:name@email.com">mfisher36@gmail.com</a>
         </div>
@@ -86,6 +84,40 @@
             <i class="fab fa-facebook-f"></i>
           </a>
         </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+      <div class="my-auto">
+        <h2 class="mb-4">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">The College of New Jersey</h3>
+            <h4>School of Humanities and Social Sciences, Ewing, New Jersey</h4>
+            <h3 class="subheading mb-0 mt-4">Bachelor of Arts</h3>
+            <div>Philosophy (<em>Concentration: Law and Society</em>)</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2008 - May 2012</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Rutgers University</h3>
+            <h4>The Division of Continuing Education, Somerset, New Jersey
+              </h4>
+            <h3 class="subheading mb-0 mt-4">Certificate of Completion</h3>
+            <div>Rutgers Coding Bootcamp - Full Stack Development (MEAN)</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2008 - May 2012</span>
+          </div>
+        </div>
+
       </div>
     </section>
 
@@ -150,26 +182,6 @@
 
       </div>
 
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-      <div class="my-auto">
-        <h2 class="mb-4">Education</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">The College of New Jersey</h3>
-            <h4>Ewing, NJ</h4>
-            <h3 class="subheading mb-0 mt-4">Bachelor of Arts</h3>
-            <div>Philosophy (<em>Concentration: Law and Society</em>)</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2008 - May 2012</span>
-          </div>
-        </div>
-      </div>
     </section>
 
     <hr class="m-0">
@@ -254,12 +266,12 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
       <div class="my-auto">
-        <h2 class="mb-5">Portfolio</h2>
+        <h2 class="mb-4">Portfolio</h2>
 
 
         <div class="portfolio-entry">
           <div class="folio-row mx-auto">
-            <img class="folio-gif" src="https://via.placeholder.com/775x420/FFFFFF/000000/?text=SCORECENTER EXPRESS">
+            <img class="folio-gif" src="./img/rate-my-plate-gif.gif">
           </div>
           <h3 class="port-head mt-3 text-center">Rate My Plate</h3>
           <div class="folio-text mx-auto">
@@ -271,21 +283,66 @@
               recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
           </div>
         </div>
-<hr class="port-split mt-5 mb-5">
+        <hr class="port-split mt-5 mb-5">
         <div class="portfolio-entry">
-            <div class="folio-row mx-auto">
-              <img class="folio-gif" src="https://via.placeholder.com/775x420/FFFFFF/000000/?text=SCORECENTER EXPRESS">
-            </div>
-            <h3 class="port-head mt-3 text-center">Rate My Plate</h3>
-            <div class="folio-text mx-auto">
-              <p class="port-text-para mt-2 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
-                five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
-                recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            </div>
+          <div class="folio-row mx-auto">
+            <img class="folio-gif" src="./img/michael-jackson-gif.gif">
           </div>
+          <h3 class="port-head mt-3 text-center">Rate My Plate</h3>
+          <div class="folio-text mx-auto">
+            <p class="port-text-para mt-2 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+              printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
+              five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+              recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+        </div>
+        <hr class="port-split mt-5 mb-5">
+        <div class="portfolio-entry">
+          <div class="folio-row mx-auto">
+            <img class="folio-gif" src="./img/battle-game-gif.gif">
+          </div>
+          <h3 class="port-head mt-3 text-center">Rate My Plate</h3>
+          <div class="folio-text mx-auto">
+            <p class="port-text-para mt-2 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+              printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
+              five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+              recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+        </div>
+        <hr class="port-split mt-5 mb-5">
+        <div class="portfolio-entry">
+          <div class="folio-row mx-auto">
+            <img class="folio-gif" src="./img/journal-gif.gif">
+          </div>
+          <h3 class="port-head mt-3 text-center">Rate My Plate</h3>
+          <div class="folio-text mx-auto">
+            <p class="port-text-para mt-2 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+              printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
+              five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+              recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+        </div>
+        <hr class="port-split mt-5 mb-5">
+        <div class="portfolio-entry">
+          <div class="folio-row mx-auto">
+            <img class="folio-gif" src="./img/scorecenter-gif.gif">
+          </div>
+          <h3 class="port-head mt-3 text-center">Rate My Plate</h3>
+          <div class="folio-text mx-auto">
+            <p class="port-text-para mt-2 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+              printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
+              five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+              recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+        </div>
 
 
         <!-- <div class="port-row">
