@@ -57,6 +57,11 @@ h6 {
 h1 {
   font-size: 6rem;
   line-height: 5.5rem;
+  letter-spacing: 26px !important;
+}
+
+.bar {
+  letter-spacing: 2px;
 }
 
 h2 {
@@ -66,6 +71,10 @@ h2 {
 
 h3 {
   font-size: 2rem;
+}
+
+h4 {
+  letter-spacing: 1.5px;
 }
 
 p.lead {
@@ -163,7 +172,6 @@ p.lead {
 
 .folio-row {
   height: auto;
-  max-height: 450px;
   width: 90%;
   border: 3px solid #7f2627;
 }
@@ -201,7 +209,7 @@ hr {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    width: 12rem;
+    width: 13rem;
     height: 100vh;
   }
   #sideNav .navbar-brand {
@@ -213,12 +221,16 @@ hr {
   }
   #sideNav .navbar-brand .img-profile {
     max-width: 14rem;
-    max-height: 25rem;
+    max-height: 30rem;
     border: 2px solid #ffe34e;
     box-shadow: 0 0 10px #ffe34e;
     border-radius: 2%!important;
-    height: 350px;
+    height: 365px;
     width: 200px;
+  }
+
+  .img-pic {
+    margin-left: 20px;
   }
 
   #sideNav .navbar-collapse {
