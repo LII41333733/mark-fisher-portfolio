@@ -1,0 +1,124 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: maroon;
+}
+
+.container-fluid {
+  background: white;
+  border-bottom: 10px solid gold;
+}
+
+.icons i {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.note-textarea, .note-title {
+  color: maroon;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.note-textarea {
+  color: black;
+  resize: none;
+  padding-top: 15px;
+  height: 100%;
+}
+
+.note-title {
+  height: 60px;
+  margin-top: 13px;
+  font-size: 3rem;
+}
+
+.note-title:read-only, .note-textarea:read-only {
+  color: #2e2929;
+}
+
+.col-4 .card {
+  border-bottom: none;
+}
+
+.col-4 {
+  padding-left: 0;
+}
+
+.col-4 .list-group,
+.col-4 .list-group-item,
+.col-4 .card,
+.col-4 .card-body {
+  border-top: none;
+  border-bottom: none;
+}
+
+.col-4 i {
+  font-size: 1.1rem;
+}
+
+.col-4 .list-group-item {
+  border-left: none;
+  border-right: none;
+  margin: 0;
+  margin-bottom: 10px;
+  border-radius: 0;
+}
+
+.list-group-item:hover {
+ outline: 6px solid maroon;
+}
+
+.list-group-item:last-child, p:last-child {
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+/* --------------- */
+.navbar {
+  background: maroon;
+  border-bottom: 10px solid gold;
+}
+
+.navbar a {
+  color: white;
+}
+.card-body {
+  padding: 0;
+  background: gold;
+}
+
+.card, .card-body {
+  border-radius: 0;
+  border-right: 5px solid gold;
+  border-left: 5px solid gold;
+}
+
+.list-group-item:hover, .list-group-item:focus {
+  z-index: 0;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+hr {
+  margin: 8px 0;
+}
+
+.delete-note {
+  z-index: 5;
+}
+
+.list-group {
+  z-index: 0;
+}
+
+.col-8 {
+  height: 100%;
+}
