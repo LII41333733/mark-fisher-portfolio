@@ -4,4 +4,4 @@ The above link leads you to my portfolio which contains my work history, notable
 
 ### Mark Fisher
 * Email: mfisher36@gmail.com
-* LinkedIn: 
+* LinkedIn: https://www.linkedin.com/in/mark-fisher-047b9167/
